@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #0d1117;
+    color: #f1f5f9;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161b22;
+    padding: 15px 30px;
+    border-bottom: 1px solid #30363d;
+}
+
+.logo {
+    font-size: 24px;
+    color: #0ef;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f1f5f9;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #38bdf8;
+}
+
+nav button {
+    background: linear-gradient(to right, #14b8a6, #06b6d4);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.hero {
+    padding: 80px 20px;
+}
+
+.welcome {
+    font-size: 1.2rem;
+    color: #14b8a6;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, #ec4899, #f59e0b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.intro-text {
+    color: #9ca3af;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+.gradient-btn {
+    display: inline-block;
+    background: linear-gradient(to right, #14b8a6, #06b6d4);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 9999px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gradient-btn:hover {
+    background: linear-gradient(to right, #0f766e, #0891b2);
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+
+.highlight {
+    color: #ec4899;
+}
+
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #38bdf8;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    background: #0d1117;
+    color: #f1f5f9;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+}
+
+footer {
+    background: #161b22;
+    color: #9ca3af;
+    padding: 15px;
+    border-top: 1px solid #30363d;
+}
